@@ -18,7 +18,7 @@ const attract = require('3d-attraction')
 
 Add data attributes to the container and target. Container is the area the mouse movement is relative too, and target is the element that will be transformed.
 
-```javascript
+```html
 <div class="my-container" data-3d-attract-container>
   <div class="my-target-parent">
     <div class="my-target" data-3d-attract></div>
