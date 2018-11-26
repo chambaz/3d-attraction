@@ -1,0 +1,8 @@
+{
+  "name": "3d-attraction",
+  "version": "1.0.0",
+  "description": "A library to rotate DOM elements in 3D space based on mouse movement",
+  "main": "index.js",
+  "author": "Adam Chambers <@chambaz>",
+  "license": "ISC"
+}
