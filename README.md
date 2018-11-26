@@ -6,15 +6,19 @@ A library to rotate DOM elements in 3D space based on mouse movement. [Demo on C
 
 Install with NPM
 
-`$ npm i --save 3d-attraction`
+```bash
+$ npm i --save 3d-attraction
+```
 
 Require the module
 
-`const attract = require('3d-attraction')`
+```javascript
+const attract = require('3d-attraction')
+```
 
 Add data attributes to the container and target. Container is the area the mouse movement is relative too, and target is the element that will be transformed.
 
-```
+```javascript
 <div class="my-container" data-3d-attract-container>
   <div class="my-target-parent">
     <div class="my-target" data-3d-attract></div>
@@ -24,7 +28,7 @@ Add data attributes to the container and target. Container is the area the mouse
 
 Add CSS and tweak values to your desire
 
-```
+```css
 /* perspective should be added to target parent not necessarily the container */
 .my-target-parent {
   perspective: 400px;
